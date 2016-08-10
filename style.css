@@ -773,6 +773,18 @@ a { outline: 0 !important; }
 	background-repeat: no-repeat;
 	background-position: center top;
 }
+.research-slope:before {
+	width: 52%; 
+	height: 100%; 
+	border-bottom: 810px solid rgba(147,185,7,0.90); 
+	border-left: 150px solid transparent; 
+	border-right: 50px solid transparent;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
 .research-slope1{
 	margin: -150px -50px 0 -50px;	
 	overflow: hidden;
@@ -792,6 +804,18 @@ a { outline: 0 !important; }
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center top;
+}
+.research-slope1:before {
+	width: 52%; 
+	height: 100%; 
+	border-bottom: 810px solid rgba(147,185,7,0.90); 
+	border-left: 150px solid transparent; 
+	border-right: 50px solid transparent;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
 }
 .research-slope2{
 	margin: -150px -50px 0 -50px;	
@@ -813,30 +837,8 @@ a { outline: 0 !important; }
 	background-repeat: no-repeat;
 	background-position: center top;
 }
-.research-slope:before {
-	width: 52%; 
-	height: 100%; 
-	border-bottom: 810px solid rgba(147,185,7,0.90); 
-	border-left: 150px solid transparent; 
-	border-right: 50px solid transparent;
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-}
-.research-slope1:before {
-	width: 52%; 
-	height: 100%; 
-	border-bottom: 810px solid rgba(147,185,7,0.90); 
-	border-left: 150px solid transparent; 
-	border-right: 50px solid transparent;
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-}
+
+
 .research-slope2:before {
 	width: 52%; 
 	height: 100%; 
@@ -1990,7 +1992,6 @@ a { outline: 0 !important; }
 	height: 702px;
 	border: 0 none;
 }
-
 /* ## Project Section ## */
 .project-section {
 	position: relative;

@@ -932,6 +932,7 @@
 	.service-bg,
 	.line,
 	.car,
+	.car2,
 	.application-iphone,
 	.our-genius .style2,
 	.brag-about-section,
@@ -1085,7 +1086,6 @@
 		margin-right: 0;
 		height: 630px
 	}
-		
 	.research-slope:before {
 		width: 100%; 
 		height: 100%; 
@@ -1100,8 +1100,58 @@
 		-o-transform: rotate(-4deg);
 		right: -20px;
 	}
+
+
+		.research-slope1 {
+		background-image: url("../images/how-we-work/research-bg1-tablet.jpg");
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		margin-right: 0;
+		height: 630px
+	}
+	.research-slope1:before {
+		width: 100%; 
+		height: 100%; 
+		border-top: 0px solid rgba(147,185,7,0.90); 
+		border-bottom: 340px solid rgba(147,185,7,0.90); 
+		border-left: 0px solid transparent; 
+		border-right: 0px solid transparent; 
+		top: auto;
+		transform: rotate(-4deg);
+		-webkit-transform: rotate(-4deg);
+		-moz-transform: rotate(-4deg);
+		-o-transform: rotate(-4deg);
+		right: -20px;
+	}		
+		.research-slope2 {
+		background-image: url("../images/how-we-work/research-bg2-tablet.jpg");
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		margin-right: 0;
+		height: 630px
+	}
+	.research-slope2:before {
+		width: 100%; 
+		height: 100%; 
+		border-top: 0px solid rgba(147,185,7,0.90); 
+		border-bottom: 340px solid rgba(147,185,7,0.90); 
+		border-left: 0px solid transparent; 
+		border-right: 0px solid transparent; 
+		top: auto;
+		transform: rotate(-4deg);
+		-webkit-transform: rotate(-4deg);
+		-moz-transform: rotate(-4deg);
+		-o-transform: rotate(-4deg);
+		right: -20px;
+	}	
 	
 	.research,
+	.research1,
+	.research2,		
 	.we-perfection,
 	.clean-code-box,
 	.we-launch {
@@ -1159,6 +1209,40 @@
 		-moz-transform: rotate(0deg);
 		-o-transform: rotate(0deg);
 	}
+
+	.we-perfection-slope1 {
+		background-image: url("../images/how-we-work/we-perfection1-tablet.jpg");
+		margin-right: 0;
+		margin-top: -90px;
+		transform: rotate(3deg);
+		-webkit-transform: rotate(3deg);
+		-moz-transform: rotate(3deg);
+		-o-transform: rotate(3deg);
+		height: 630px;
+		width: 108%;
+	}	
+	.we-perfection {
+		transform: rotate(-3deg);
+		-webkit-transform: rotate(-3deg);
+		-moz-transform: rotate(-3deg);
+		-o-transform: rotate(-3deg);
+	}
+	.we-perfection-slope1:before {
+		width: 100%; 
+		height: 100%; 
+		border-top: 0px solid rgba(147,185,7,0.90); 
+		border-bottom: 340px solid rgba(147,185,7,0.90); 
+		border-left: 0px solid transparent; 
+		border-right: 0px solid transparent; 
+		content: "";
+		position: absolute;
+		top: auto;
+		right: -50px;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+	}	
 	.clean-code {
 		background-color: transparent;
 		background-image: url("../images/how-we-work/clean-code-tablet.png");
@@ -1364,6 +1448,7 @@
 	.service-bg,
 	.line,
 	.car,
+	.car2,
 	.application-iphone,
 	.our-genius .style2,
 	.brag-about-section,
@@ -1489,7 +1574,51 @@
 		-moz-transform: rotate(-10deg);
 		-o-transform: rotate(-10deg);
 	}
+	.research-slope1 {
+		background-image: url("../images/how-we-work/research-bg1-mobile.jpg");
+		position: relative;
+	}
+		
+	.research-slope1:before {
+		width: 100%; 
+		height: 100%; 
+		border-top: 0px solid rgba(147,185,7,0.90); 
+		border-bottom: 440px solid rgba(147,185,7,0.90); 
+		border-left: 0px solid transparent; 
+		border-right: 0px solid transparent; 
+		content: "";
+		position: absolute;
+		top: auto;
+		right: 0;
+		transform: rotate(-10deg);
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+	}
+	.research-slope2 {
+		background-image: url("../images/how-we-work/research-bg2-mobile.jpg");
+		position: relative;
+	}
+		
+	.research-slope2:before {
+		width: 100%; 
+		height: 100%; 
+		border-top: 0px solid rgba(147,185,7,0.90); 
+		border-bottom: 440px solid rgba(147,185,7,0.90); 
+		border-left: 0px solid transparent; 
+		border-right: 0px solid transparent; 
+		content: "";
+		position: absolute;
+		top: auto;
+		right: 0;
+		transform: rotate(-10deg);
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+	}		
 	.research,
+	.research1,
+	.research2,
 	.clean-code-box	{
 		top: auto;
 		bottom: 20%;
@@ -1548,6 +1677,25 @@
 		-moz-transform: rotate(0deg);
 		-o-transform: rotate(0deg);
 	}
+	.we-perfection-slope1 {
+		background-image: url("../images/how-we-work/we-perfection1-mobile.jpg");
+	}	
+	.we-perfection-slope1:before {
+		width: 100%; 
+		height: 100%; 
+		border-top: 0px solid rgba(147,185,7,0.90); 
+		border-bottom: 440px solid rgba(147,185,7,0.90); 
+		border-left: 0px solid transparent; 
+		border-right: 0px solid transparent; 
+		content: "";
+		position: absolute;
+		top: auto;
+		right: 0;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+	}	
 	.clean-code {
 		background-color: transparent;
 		background-image: url("../images/how-we-work/clean-code-mobile.png");

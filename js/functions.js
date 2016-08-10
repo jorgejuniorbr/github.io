@@ -108,7 +108,28 @@
 			$('.research p').addClass('animated fadeInRight');
 		});
 	});
-	
+	$('.research-slope1').each(function ()
+	{
+		var $this = $(this);
+		var myVal = $(this).data("value");
+
+		$this.appear(function()
+		{
+			$('.research1 h3').addClass('animated fadeInRight');
+			$('.research1 p').addClass('animated fadeInRight');
+		});
+	});
+	$('.research-slope2').each(function ()
+	{
+		var $this = $(this);
+		var myVal = $(this).data("value");
+
+		$this.appear(function()
+		{
+			$('.research2 h3').addClass('animated fadeInRight');
+			$('.research2 p').addClass('animated fadeInRight');
+		});
+	});		
 	$('.we-perfection-slope').each(function ()
 	{
 		var $this = $(this);
@@ -120,6 +141,17 @@
 			$('.we-perfection-slope p').addClass('animated fadeInLeft');
 		});
 	});
+	$('.we-perfection-slope1').each(function ()
+	{
+		var $this = $(this);
+		var myVal = $(this).data("value");
+
+		$this.appear(function()
+		{
+			$('.we-perfection-slope1 h3').addClass('animated fadeInLeft');
+			$('.we-perfection-slope1 p').addClass('animated fadeInLeft');
+		});
+	});	
 	$('.clean-code').each(function ()
 	{
 		var $this = $(this);
